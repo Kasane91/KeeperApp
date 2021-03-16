@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #f58c13;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -20,8 +20,8 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
+  font-family: "Montserrat", cursive;
+  font-weight: 900;
 }
 
 footer {
