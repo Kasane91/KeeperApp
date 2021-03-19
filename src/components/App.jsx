@@ -6,7 +6,7 @@ import Note from "./Note";
 
 import CreateArea from "./CreateArea";
 
-let App = () => {
+const App = () => {
   const [noteArray, setNoteArray] = useState([]);
 
   const updateNoteArray = (note) => {
@@ -16,7 +16,11 @@ let App = () => {
   };
 
   const handleDelete = (id) => {
-    console.log("I got deleted" + id);
+    setNoteArray((prevItems) => {
+      return prevItems.filter((item, index) => {
+        return index !== id;
+      });
+    });
   };
 
   return (
